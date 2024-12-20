@@ -20,7 +20,7 @@ const Footer = () => {
           href="https://github.com/Ediwise"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-blue-500"
+          className="text-[#101828] hover:text-blue-500 transition-colors duration-300"
         >
           <FaGithub className="text-2xl sm:text-3xl" />
         </Link>
@@ -28,11 +28,14 @@ const Footer = () => {
           href="https://www.linkedin.com/in/editech/"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-blue-500"
+          className="text-[#101828] hover:text-blue-500 transition-colors duration-300"
         >
           <FaLinkedin className="text-2xl sm:text-3xl" />
         </Link>
-        <Link href="mailto:caforji@gmail.com" className="hover:text-blue-500">
+        <Link
+          href="mailto:caforji@gmail.com"
+          className="text-[#101828] hover:text-blue-500 transition-colors duration-300"
+        >
           <FaEnvelope className="text-2xl sm:text-3xl" />
         </Link>
       </div>

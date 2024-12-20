@@ -3,9 +3,9 @@ import Image from "next/image";
 const backendSkills = [
   { name: "Node.js", icon: "/nodejs.svg" },
   { name: "Nest.js", icon: "/nestjs.svg" },
+  { name: "Git", icon: "/git.svg" },
   { name: "MongoDB", icon: "/mongodb.svg" },
   { name: "PostgreSQL", icon: "/postgresql.svg" },
-  { name: "Git", icon: "/git.svg" },
 ];
 
 const Backend = () => {
